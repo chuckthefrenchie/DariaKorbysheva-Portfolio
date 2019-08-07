@@ -1,0 +1,110 @@
+ 
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("memphis-mini.png");
+    color: #777777;
+    margin-top: 0px !important;
+  } 
+
+.header {
+    /* overflow: hidden; */
+    background-color: white;
+    border-bottom: 2px solid #dddddd;
+    float: right;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px; 
+    height: 70px;
+    margin-top: 0px;
+   
+  }
+  
+
+  .header a {
+    float: right;
+    color: #777777;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+    font-size: 14px;
+    border-left: 0.1px solid #dddddd;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+   
+    
+  }
+
+  #Daria {
+    
+    font-size: 20px;
+    background: #4aaaa5;
+    color: white;
+    float: left;
+    padding: 15px;
+    margin-left: 130px; 
+    width: 200px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+ 
+  }
+
+  #about {
+    border-left: 1px solid white;
+  }
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }s
+  h1 {
+    clear: both;
+    overflow: auto;
+    padding: 18px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #dddddd;
+  }
+  
+  #contact {
+      margin-right: 90px;
+  }
+  
+  .Contact {
+    clear: both;
+    overflow: auto;
+      background-color: #ffffff; 
+      height: 530px;
+      width: 960px;
+      margin-left: 120px;
+      font-size: 15px;
+      padding: 20px;
+      border: 1px solid #D3D3D3;
+      
+     
+  }
+  #john {
+      font-size: 12px;
+      border: 1px solid #D3D3D3;
+      padding: 7px;
+
+  }
+  #Example {
+      border: 1px solid #D3D3D3;
+      padding: 7px;
+      font-size: 12px;
+  }
+  #message {
+    border: 1px solid #D3D3D3;
+    height: 160px;
+    color: #ffffff;
+      
+  }
+  button {
+      padding: 8px;
+      width: 80px;
+      background-color: #4aaaa5;
+      color:#ffffff;
+      font-size: 15px;
+  }
