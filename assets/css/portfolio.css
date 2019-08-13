@@ -1,0 +1,82 @@
+
+ body {
+  background-color: white;
+  margin: 50px;
+
+ }
+ .mainContainer {
+  height: 100%;
+  background-color: #F8F8F8;
+  width: 100%;
+}
+
+.menu {
+  margin-left: 840px;
+  margin-top: 50px;
+  padding-top: 32px;
+  color: #303952;
+  text-decoration: none;
+
+ }
+
+  #about, #portfolio, #contact {
+    text-decoration: none;
+    color: #303952;
+    padding: 16px;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  a:hover {   
+    text-decoration: none;
+      background-color: #EA412C;
+   
+  }
+h1 {
+color: #303952;
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+font-weight: bold;
+  
+  }
+h3 {
+  font-size: 16px;
+}
+
+.centered {
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    
+    text-align: center;
+  }
+
+  .portfolio {
+    clear: both;
+    overflow: auto;
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+   
+  }
+
+
+
+  .container {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  
+  /* a {
+    z-index: 2;
+    text-align: center;
+    
+  }
+
+  img {
+    z-index:1;
+  } */

@@ -1,0 +1,105 @@
+/* Split the screen in half */
+/* body {
+  background-color: #F8F8F8;
+
+ } */
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin: 50px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #EA412C;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #F8F8F8;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 300px;
+  height: 380px;
+
+}
+
+.menu {
+  margin-left: 320px; 
+  margin-top: 16px;
+  color: black;
+  text-decoration: none;
+
+}
+#portfolio, #contact, #about {
+  text-decoration: none;
+  color: black;
+  padding: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+a:hover { 
+  background-color: #EA412C;
+ 
+}
+
+h1 {
+  font-size: 24px;
+  color: black;
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+  
+}
+.aboutMe {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-left: 88px;
+  margin-right: 88px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.fa-linkedin {
+  background:  #EA412C;
+  color: white;
+  padding: 12px;
+  margin-left: 500px;
+  display:inline-block;
+}
+.fa-github {
+padding: 16px;
+color: black;
+}
+#media {
+  margin-bottom: 20px;
+  display:inline-block;
+}
+
+.fa-linkedin:hover {
+color: white;
+}
+
+

@@ -1,0 +1,94 @@
+body {
+  background-color: white;
+
+ }
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin: 50px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #F8F8F8;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  /* background-color: #e15f41; */
+  background-image: url("https://i.imgur.com/fZNffis.jpg");
+  background-repeat: no-repeat;
+  background-size: 760px 740px;
+  opacity: 0.8;
+  
+
+}
+
+h2 {
+color: #303952;
+font-family: 'Open Sans', sans-serif;
+margin-left: 100px;
+margin-top: 90px;
+
+
+}
+ form {
+  /* position: absolute; */
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+ .menu { 
+  
+  margin-left: 320px; 
+  margin-top: 16px;
+  color: black;
+  text-decoration: none;
+
+ }
+
+  #about, #portfolio, #contact {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  a:hover { 
+    background-color: #EA412C;
+    color: black;
+   
+  }
+.form-group {
+  width: 400px;
+}
+.form-control {
+  width: 100%;
+} 
+#exampleFormControlInput1, #exampleFormControlInput2 {
+  height: 24px;
+}
+
+#exampleFormControlTextarea1 {
+  height: 100px;
+  border: 1px solid lightgray;
+  
+}
+
+#submitBtn {
+  background-color: #EA412C;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 16px;
+}
+  
+  
+ 

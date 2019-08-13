@@ -6,48 +6,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About Me</title>
-  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
-<link rel="stylesheet" type="text/css" href="contact.css">
+  
+<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+<link href="https://fonts.googleapis.com/css?family=Cormorant|Open+Sans|PT+Sans&display=swap" rel="stylesheet"> 
+
 </head>
 
 <body>
 
- <div class="container">
- <div class="header">
+ <div class="mainContainer">
+<div class= "split right">
+ <div class="menu">
     
-    <a id="Daria" href=#>Daria Korbysheva</a>
-    
+    <!-- <a id="Daria" href=#>Daria Korbysheva</a>
+     -->
+     <a id="about" href="index.html">About</a>
+     <a id="portfolio" href="portfolio.html">Portfolio</a>
     <a id="contact" href="contact.html">Contact</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a id="about" href="index.html">About</a>
 
-</div> <!--to close header-->
-
-      
-    <div class="Contact">
-         <h1>Contact</h1>
-
-        <p>Name</p>
-        <p id="john">John Smith</p>
-
-        <p>Email</p>
-        <p id="Example">example@gmail.com</p>
-
-        <p>Message</p>
-        <p id="message">#</p>
-    
-        <button type="button">Submit</button>
-</div> <!-- to close contact-->
+</div> <!--to close menu-->
 
 
 
 
+</div> <!-- to close the split right-->
 
+<br>
+<div class= "split left">
+  <h2>Contact Me</h2>
+<form>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name: </label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Daria Korbysheva">
+      </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address: </label>
+    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="dariakorbysheva@gmail.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message: </label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"placeholder="type your message here"></textarea>
+  </div>
+  <input id="submitBtn" type="submit" value="Submit">
+</form>
+</div> <!--split left-->
 
-
-
-
-</div> <!-- to close container-->
+</div> <!-- to close  main container-->
 
 
 
