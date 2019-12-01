@@ -30,7 +30,8 @@
   
   a:hover {   
     text-decoration: none;
-      background-color: #EA412C;
+    /* background-color: #EA412C; */
+    background-color: #ec5f61;
    
   }
 h1 {
@@ -57,7 +58,7 @@ h3 {
     clear: both;
     overflow: auto;
     width: 1000px;
-    height: 500px;
+    height: 70%;
     padding: 20px;
     margin-left: 15%;
     margin-right: 15%;
